@@ -19,7 +19,7 @@ export function Home() {
       
       <div className="row mt-4">
         <div className="col">
-          <h2>Building Your Wiki</h2>
+          <h2>Change it</h2>
           <hr />
           <ul>
             <li>
