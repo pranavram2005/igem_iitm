@@ -1,3 +1,4 @@
+# Use Node 20 (required for Docusaurus v3.9.1+)
 image: node:20.13.1
 
 pages:
@@ -14,7 +15,8 @@ pages:
     - yarn install --frozen-lockfile
   script:
     - yarn build
-    - cp -a dist/. public/
+    # ✅ Docusaurus outputs to "build/", not "dist/"
+    - cp -a build/. public/
     - echo '/* /index.html 200' > public/_redirects
   artifacts:
     paths:
