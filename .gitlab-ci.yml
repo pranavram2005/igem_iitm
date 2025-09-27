@@ -1,14 +1,14 @@
-image: node:20.13.1
+image: node:20-alpine   # ✅ lightweight Node version for faster startup
 
 pages:
   stage: build
-  timeout: 20m   # give the job more breathing room
+  timeout: 20m
   cache:
     - key:
         files:
           - yarn.lock
       paths:
-        - .yarn-cache/   # ✅ keep only yarn cache, remove node_modules
+        - .yarn-cache/   # keep only Yarn cache, no node_modules
   before_script:
     - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
     - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
