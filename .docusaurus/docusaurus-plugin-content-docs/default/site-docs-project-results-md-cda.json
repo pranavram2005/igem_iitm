@@ -1,0 +1,30 @@
+{
+  "id": "project/results",
+  "title": "Results",
+  "description": "This page presents the key findings and outcomes of our project work.",
+  "source": "@site/docs/project/results.md",
+  "sourceDirName": "project",
+  "slug": "/project/results",
+  "permalink": "/project/results",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/project/results.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Results"
+  },
+  "sidebar": "projectSidebar",
+  "previous": {
+    "title": "Engineering Success",
+    "permalink": "/project/engineering"
+  },
+  "next": {
+    "title": "Contribution",
+    "permalink": "/project/contribution"
+  }
+}

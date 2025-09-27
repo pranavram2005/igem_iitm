@@ -1,0 +1,30 @@
+{
+  "id": "engagement/human-practices",
+  "title": "Human Practices",
+  "description": "Our comprehensive approach to understanding and addressing the social, ethical, and environmental implications of our project.",
+  "source": "@site/docs/engagement/human-practices.md",
+  "sourceDirName": "engagement",
+  "slug": "/engagement/human-practices",
+  "permalink": "/engagement/human-practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/engagement/human-practices.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Human Practices"
+  },
+  "sidebar": "engagementSidebar",
+  "previous": {
+    "title": "Entrepreneurship",
+    "permalink": "/engagement/entrepreneurship"
+  },
+  "next": {
+    "title": "Education and Communication",
+    "permalink": "/engagement/education"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "engagement/education",
+  "title": "Education and Communication",
+  "description": "Our educational outreach programs, workshops, and materials designed to engage and educate diverse audiences about synthetic biology.",
+  "source": "@site/docs/engagement/education.md",
+  "sourceDirName": "engagement",
+  "slug": "/engagement/education",
+  "permalink": "/engagement/education",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/engagement/education.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Education and Communication"
+  },
+  "sidebar": "engagementSidebar",
+  "previous": {
+    "title": "Human Practices",
+    "permalink": "/engagement/human-practices"
+  },
+  "next": {
+    "title": "Inclusivity and Diversity",
+    "permalink": "/engagement/inclusivity"
+  }
+}
