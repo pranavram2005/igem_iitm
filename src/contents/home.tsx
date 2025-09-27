@@ -18,7 +18,6 @@ export function Home() {
     <>
       <div className="row">
         <div className="col">
-          <h2>Essential First Steps</h2>
           <hr />
           <p>
             Familiarize yourself with the official iGEM competition rules,
