@@ -16,62 +16,7 @@ export function Home() {
 
   return (
     <>
-      <div className="row">
-        <div className="col">
-          <h2>Essential First Steps</h2>
-          <hr />
-          <p>
-            Familiarize yourself with the official iGEM competition rules,
-            policies, and judging criteria:
-          </p>
-          <ul>
-            <li>
-              Carefully review the{" "}
-              <a
-                href="https://competition.igem.org/deliverables/team-wiki"
-                target="_blank"
-              >
-                Wiki Requirements page
-              </a>{" "}
-              to ensure your wiki meets all necessary standards for judging and
-              awards.
-            </li>
-            <li>
-              Understand the criteria and required wiki pages for Gold, Silver,
-              and Bronze Medals on the{" "}
-              <a
-                href="https://competition.igem.org/judging/medals"
-                target="_blank"
-              >
-                Medals page
-              </a>
-              .
-            </li>
-            <li>
-              Explore the various Project Prizes and their corresponding wiki
-              requirements on the{" "}
-              <a
-                href="https://competition.igem.org/judging/project-prizes"
-                target="_blank"
-              >
-                Project Prizes Page
-              </a>
-              .
-            </li>
-            <li>
-              Discover the eligibility criteria and wiki requirements for
-              Special Prizes on the{" "}
-              <a
-                href="https://competition.igem.org/judging/special-prizes"
-                target="_blank"
-              >
-                Special Prizes Page
-              </a>
-              .
-            </li>
-          </ul>
-        </div>
-      </div>
+      
       <div className="row mt-4">
         <div className="col">
           <h2>Building Your Wiki</h2>
