@@ -2,14 +2,13 @@ image: node:20.13.1
 
 pages:
   stage: build
-  timeout: 20m   # ⬅️ allow up to 20 minutes
+  timeout: 20m   # give the job more breathing room
   cache:
     - key:
         files:
           - yarn.lock
       paths:
-        - .yarn-cache/
-        - node_modules/
+        - .yarn-cache/   # ✅ keep only yarn cache, remove node_modules
   before_script:
     - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
     - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
