@@ -1,21 +1,21 @@
-# Use Node 20 (required for Docusaurus v3.9.1+)
 image: node:20.13.1
 
 pages:
   stage: build
+  timeout: 20m   # ⬅️ allow up to 20 minutes
   cache:
     - key:
         files:
           - yarn.lock
       paths:
         - .yarn-cache/
+        - node_modules/
   before_script:
     - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
     - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
     - yarn install --frozen-lockfile
   script:
     - yarn build
-    # ✅ Docusaurus outputs to "build/", not "dist/"
     - cp -a build/. public/
     - echo '/* /index.html 200' > public/_redirects
   artifacts:
@@ -23,6 +23,6 @@ pages:
       - public
   rules:
     - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
-      when: never # No runners will run on branches other than main
+      when: never
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       when: always
