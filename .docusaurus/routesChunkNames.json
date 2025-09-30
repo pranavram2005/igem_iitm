@@ -1,0 +1,158 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/-e54": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---aba-d70"
+    }
+  },
+  "/-860": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---22-d-307"
+  },
+  "/-6e3": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/drylab/-88c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---drylab-b-07-adf"
+  },
+  "/drylab/hardware-dac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---drylab-hardware-8-ff-7cb"
+  },
+  "/drylab/model-2ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---drylab-model-96-a-fe8"
+  },
+  "/drylab/software-b60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---drylab-software-804-a83"
+  },
+  "/engagement/-27d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-ee-3-484"
+  },
+  "/engagement/education-472": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-education-598-2c6"
+  },
+  "/engagement/entrepreneurship-997": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-entrepreneurship-664-ec4"
+  },
+  "/engagement/human-practices-3e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-human-practicesd-04-951"
+  },
+  "/engagement/inclusivity-341": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-inclusivity-972-54e"
+  },
+  "/engagement/sustainability-87d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---engagement-sustainabilityfd-0-c8f"
+  },
+  "/project/-cbc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-5-dc-c49"
+  },
+  "/project/contribution-b88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-contribution-55-d-f7a"
+  },
+  "/project/description-30a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-descriptionce-4-3c1"
+  },
+  "/project/engineering-d1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-engineeringf-2-a-175"
+  },
+  "/project/results-558": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-resultscda-ab3"
+  },
+  "/team/-281": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-c-41-dce"
+  },
+  "/team/attributions-60d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-attributions-8-d-8-ced"
+  },
+  "/team/members-31a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-membersb-5-f-458"
+  },
+  "/wetlab/-c31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-493-eb2"
+  },
+  "/wetlab/experiments-fe4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-experimentsdb-5-45e"
+  },
+  "/wetlab/measurement-be0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-measurement-361-dca"
+  },
+  "/wetlab/notebook-2d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-notebook-734-bdc"
+  },
+  "/wetlab/plant-ad2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-plant-06-f-8f8"
+  },
+  "/wetlab/safety-and-security-673": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wetlab-safety-and-security-30-f-be5"
+  },
+  "/-8bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---c-37-d02"
+  }
+}

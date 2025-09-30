@@ -1,0 +1,30 @@
+{
+  "id": "drylab/software",
+  "title": "Software Development",
+  "description": "Custom software tools, analysis scripts, and computational resources we've developed for our project and the community.",
+  "source": "@site/docs/drylab/software.md",
+  "sourceDirName": "drylab",
+  "slug": "/drylab/software",
+  "permalink": "/drylab/software",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/drylab/software.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Software Development"
+  },
+  "sidebar": "drylabSidebar",
+  "previous": {
+    "title": "Mathematical Modeling",
+    "permalink": "/drylab/model"
+  },
+  "next": {
+    "title": "Hardware Development",
+    "permalink": "/drylab/hardware"
+  }
+}

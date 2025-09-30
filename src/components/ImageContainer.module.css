@@ -1,0 +1,228 @@
+/* ImageContainer Component Styles - Clickable Anywhere */
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.imageWrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.imageContainer:hover .imageWrapper {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer:hover .fullscreenHint {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.imageContainer:hover .image {
+  transform: scale(1.02);
+}
+
+.fullscreenHint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.2s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreenButton:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.05);
+}
+
+.fullscreenButton:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  font-style: italic;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Fullscreen Modal Styles */
+.fullscreenOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease;
+}
+
+.fullscreenContainer {
+  position: relative;
+  max-width: 95vw;
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 10001;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.closeButton:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.fullscreenImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  animation: zoomIn 0.3s ease;
+}
+
+.fullscreenCaption {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 80%;
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .imageContainer {
+    margin: 0.5rem 0;
+  }
+  
+  .fullscreenButton {
+    bottom: 8px;
+    right: 8px;
+    padding: 6px;
+  }
+  
+  .closeButton {
+    top: -40px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .fullscreenCaption {
+    font-size: 0.9rem;
+    max-width: 90%;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Dark theme support */
+[data-theme='dark'] .imageWrapper {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .imageWrapper:hover {
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+
+[data-theme='dark'] .caption {
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .imageWrapper,
+  .image,
+  .fullscreenButton,
+  .fullscreenOverlay,
+  .fullscreenImage {
+    transition: none;
+    animation: none;
+  }
+  
+  .imageWrapper:hover .image {
+    transform: none;
+  }
+}

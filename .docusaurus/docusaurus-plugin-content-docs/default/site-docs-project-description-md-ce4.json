@@ -1,0 +1,30 @@
+{
+  "id": "project/description",
+  "title": "Project Description",
+  "description": "Describe how and why you chose your iGEM project.",
+  "source": "@site/docs/project/description.md",
+  "sourceDirName": "project",
+  "slug": "/project/description",
+  "permalink": "/project/description",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/project/description.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Project Description"
+  },
+  "sidebar": "projectSidebar",
+  "previous": {
+    "title": "Project Overview",
+    "permalink": "/project/"
+  },
+  "next": {
+    "title": "Engineering Success",
+    "permalink": "/project/engineering"
+  }
+}
