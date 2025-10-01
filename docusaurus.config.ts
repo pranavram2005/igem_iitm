@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://2025.igem.wiki/iit-madras',
+  url: 'https://2025.igem.wiki/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/iit-madras',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -75,10 +75,7 @@ const config: Config = {
           label: 'Team',
           position: 'right',
           items: [
-            {
-              to: '/team/',
-              label: 'Team Overview',
-            },
+            
             {
               to: '/team/members',
               label: 'Members',
