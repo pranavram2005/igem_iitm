@@ -70,7 +70,7 @@ const config: Config = {
       maxHeadingLevel: 2,
     },
     navbar: {
-      title: 'Epigenetic Programmable Intervention Control',
+      title: 'EPIC',
       logo: {
         alt: 'IIT Madras iGEM Logo',
         src: 'https://static.igem.wiki/teams/5657/navbar/logo.webp',
