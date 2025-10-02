@@ -1,0 +1,27 @@
+{
+  "id": "education",
+  "title": "Education and Communication",
+  "description": "Our educational outreach programs, workshops, and materials designed to engage and educate diverse audiences about synthetic biology.",
+  "source": "@site/docs/education.md",
+  "sourceDirName": ".",
+  "slug": "/education",
+  "permalink": "/iit-madras/education",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Education and Communication"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "HP",
+    "permalink": "/iit-madras/human-practices"
+  },
+  "next": {
+    "title": "ATTRIBUTIONS",
+    "permalink": "/iit-madras/attributions"
+  }
+}

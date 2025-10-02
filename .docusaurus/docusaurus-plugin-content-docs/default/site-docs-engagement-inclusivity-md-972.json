@@ -5,14 +5,11 @@
   "source": "@site/docs/engagement/inclusivity.md",
   "sourceDirName": "engagement",
   "slug": "/engagement/inclusivity",
-  "permalink": "/engagement/inclusivity",
+  "permalink": "/iit-madras/engagement/inclusivity",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/engagement/inclusivity.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5,
@@ -21,10 +18,10 @@
   "sidebar": "engagementSidebar",
   "previous": {
     "title": "Education and Communication",
-    "permalink": "/engagement/education"
+    "permalink": "/iit-madras/engagement/education"
   },
   "next": {
     "title": "Sustainability",
-    "permalink": "/engagement/sustainability"
+    "permalink": "/iit-madras/engagement/sustainability"
   }
 }

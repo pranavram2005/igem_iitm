@@ -1,176 +1,108 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/iit-madras/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/iit-madras/",
           "mainDocId": "index",
           "docs": [
             {
-              "id": "drylab/hardware",
-              "path": "/drylab/hardware",
-              "sidebar": "drylabSidebar"
+              "id": "attributions",
+              "path": "/iit-madras/attributions",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "drylab/index",
-              "path": "/drylab/",
-              "sidebar": "drylabSidebar"
+              "id": "contribution",
+              "path": "/iit-madras/contribution",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "drylab/model",
-              "path": "/drylab/model",
-              "sidebar": "drylabSidebar"
+              "id": "education",
+              "path": "/iit-madras/education",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "drylab/software",
-              "path": "/drylab/software",
-              "sidebar": "drylabSidebar"
+              "id": "engineering",
+              "path": "/iit-madras/engineering",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "engagement/education",
-              "path": "/engagement/education",
-              "sidebar": "engagementSidebar"
+              "id": "experiments",
+              "path": "/iit-madras/experiments",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "engagement/entrepreneurship",
-              "path": "/engagement/entrepreneurship",
-              "sidebar": "engagementSidebar"
+              "id": "future-directions",
+              "path": "/iit-madras/future-directions",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "engagement/human-practices",
-              "path": "/engagement/human-practices",
-              "sidebar": "engagementSidebar"
-            },
-            {
-              "id": "engagement/inclusivity",
-              "path": "/engagement/inclusivity",
-              "sidebar": "engagementSidebar"
-            },
-            {
-              "id": "engagement/index",
-              "path": "/engagement/",
-              "sidebar": "engagementSidebar"
-            },
-            {
-              "id": "engagement/sustainability",
-              "path": "/engagement/sustainability",
-              "sidebar": "engagementSidebar"
+              "id": "human-practices",
+              "path": "/iit-madras/human-practices",
+              "sidebar": "mainSidebar"
             },
             {
               "id": "index",
-              "path": "/"
+              "path": "/iit-madras/",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "project/contribution",
-              "path": "/project/contribution",
-              "sidebar": "projectSidebar"
+              "id": "members",
+              "path": "/iit-madras/members",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "project/description",
-              "path": "/project/description",
-              "sidebar": "projectSidebar"
+              "id": "notebook",
+              "path": "/iit-madras/notebook",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "project/engineering",
-              "path": "/project/engineering",
-              "sidebar": "projectSidebar"
+              "id": "plant",
+              "path": "/iit-madras/plant",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "project/index",
-              "path": "/project/",
-              "sidebar": "projectSidebar"
+              "id": "project-description",
+              "path": "/iit-madras/project-description",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "project/results",
-              "path": "/project/results",
-              "sidebar": "projectSidebar"
+              "id": "project-overview",
+              "path": "/iit-madras/project-overview",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "team/attributions",
-              "path": "/team/attributions",
-              "sidebar": "teamSidebar"
+              "id": "results",
+              "path": "/iit-madras/results",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "team/index",
-              "path": "/team/",
-              "sidebar": "teamSidebar"
+              "id": "safety-and-security",
+              "path": "/iit-madras/safety-and-security",
+              "sidebar": "mainSidebar"
             },
             {
-              "id": "team/members",
-              "path": "/team/members",
-              "sidebar": "teamSidebar"
-            },
-            {
-              "id": "wetlab/experiments",
-              "path": "/wetlab/experiments",
-              "sidebar": "wetlabSidebar"
-            },
-            {
-              "id": "wetlab/index",
-              "path": "/wetlab/",
-              "sidebar": "wetlabSidebar"
-            },
-            {
-              "id": "wetlab/measurement",
-              "path": "/wetlab/measurement",
-              "sidebar": "wetlabSidebar"
-            },
-            {
-              "id": "wetlab/notebook",
-              "path": "/wetlab/notebook",
-              "sidebar": "wetlabSidebar"
-            },
-            {
-              "id": "wetlab/plant",
-              "path": "/wetlab/plant",
-              "sidebar": "wetlabSidebar"
-            },
-            {
-              "id": "wetlab/safety-and-security",
-              "path": "/wetlab/safety-and-security",
-              "sidebar": "wetlabSidebar"
+              "id": "software",
+              "path": "/iit-madras/software",
+              "sidebar": "mainSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "teamSidebar": {
+            "mainSidebar": {
               "link": {
-                "path": "/team/",
-                "label": "team/index"
-              }
-            },
-            "projectSidebar": {
-              "link": {
-                "path": "/project/",
-                "label": "project/index"
-              }
-            },
-            "wetlabSidebar": {
-              "link": {
-                "path": "/wetlab/",
-                "label": "wetlab/index"
-              }
-            },
-            "drylabSidebar": {
-              "link": {
-                "path": "/drylab/",
-                "label": "drylab/index"
-              }
-            },
-            "engagementSidebar": {
-              "link": {
-                "path": "/engagement/",
-                "label": "engagement/index"
+                "path": "/iit-madras/",
+                "label": "HOME"
               }
             }
           }
         }
       ],
-      "breadcrumbs": true
+      "breadcrumbs": false
     }
   }
 }

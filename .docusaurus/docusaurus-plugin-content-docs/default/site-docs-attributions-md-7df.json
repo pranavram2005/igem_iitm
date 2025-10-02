@@ -1,0 +1,27 @@
+{
+  "id": "attributions",
+  "title": "Attributions",
+  "description": "Describe what work your team members did and what other people did for your project using the standardized Project Attributions Form.",
+  "source": "@site/docs/attributions.md",
+  "sourceDirName": ".",
+  "slug": "/attributions",
+  "permalink": "/iit-madras/attributions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Attributions"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "EDUCATION",
+    "permalink": "/iit-madras/education"
+  },
+  "next": {
+    "title": "MEMBERS",
+    "permalink": "/iit-madras/members"
+  }
+}

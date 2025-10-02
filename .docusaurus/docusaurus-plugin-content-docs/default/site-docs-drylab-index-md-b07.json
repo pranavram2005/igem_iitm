@@ -5,14 +5,11 @@
   "source": "@site/docs/drylab/index.md",
   "sourceDirName": "drylab",
   "slug": "/drylab/",
-  "permalink": "/drylab/",
+  "permalink": "/iit-madras/drylab/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/drylab/index.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
@@ -21,6 +18,6 @@
   "sidebar": "drylabSidebar",
   "next": {
     "title": "Mathematical Modeling",
-    "permalink": "/drylab/model"
+    "permalink": "/iit-madras/drylab/model"
   }
 }

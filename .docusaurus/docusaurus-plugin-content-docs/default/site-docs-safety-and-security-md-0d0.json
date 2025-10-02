@@ -1,0 +1,27 @@
+{
+  "id": "safety-and-security",
+  "title": "Safety and Security",
+  "description": "Comprehensive documentation of our safety protocols, risk assessments, and security measures.",
+  "source": "@site/docs/safety-and-security.md",
+  "sourceDirName": ".",
+  "slug": "/safety-and-security",
+  "permalink": "/iit-madras/safety-and-security",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Safety and Security"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "NOTEBOOK",
+    "permalink": "/iit-madras/notebook"
+  },
+  "next": {
+    "title": "PART COLLECTION",
+    "permalink": "/iit-madras/plant"
+  }
+}

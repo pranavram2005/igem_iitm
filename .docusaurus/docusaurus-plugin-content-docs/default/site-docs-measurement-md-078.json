@@ -1,0 +1,18 @@
+{
+  "id": "measurement",
+  "title": "Measurement",
+  "description": "Quantitative measurements, analytical methods, and data analysis procedures.",
+  "source": "@site/docs/measurement.md",
+  "sourceDirName": ".",
+  "slug": "/measurement",
+  "permalink": "/iit-madras/measurement",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Measurement"
+  }
+}

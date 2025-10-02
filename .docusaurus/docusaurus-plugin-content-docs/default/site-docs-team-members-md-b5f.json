@@ -1,18 +1,15 @@
 {
   "id": "team/members",
   "title": "Team Members",
-  "description": "Meet the amazing individuals who make up the IIT Madras iGEM 2025 team.",
+  "description": "{`",
   "source": "@site/docs/team/members.md",
   "sourceDirName": "team",
   "slug": "/team/members",
-  "permalink": "/team/members",
+  "permalink": "/iit-madras/team/members",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/team/members.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
@@ -21,10 +18,10 @@
   "sidebar": "teamSidebar",
   "previous": {
     "title": "Team Overview",
-    "permalink": "/team/"
+    "permalink": "/iit-madras/team/"
   },
   "next": {
     "title": "Attributions",
-    "permalink": "/team/attributions"
+    "permalink": "/iit-madras/team/attributions"
   }
 }

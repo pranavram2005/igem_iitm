@@ -1,0 +1,28 @@
+{
+  "id": "project-description",
+  "title": "Project Description",
+  "description": "The Problem",
+  "source": "@site/docs/project-description.md",
+  "sourceDirName": ".",
+  "slug": "/project-description",
+  "permalink": "/iit-madras/project-description",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Project Description",
+    "slug": "/project-description"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "OVERVIEW",
+    "permalink": "/iit-madras/project-overview"
+  },
+  "next": {
+    "title": "ENGINEERING SUCCESS",
+    "permalink": "/iit-madras/engineering"
+  }
+}

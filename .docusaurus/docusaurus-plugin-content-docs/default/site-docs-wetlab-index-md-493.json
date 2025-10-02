@@ -5,14 +5,11 @@
   "source": "@site/docs/wetlab/index.md",
   "sourceDirName": "wetlab",
   "slug": "/wetlab/",
-  "permalink": "/wetlab/",
+  "permalink": "/iit-madras/wetlab/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/wetlab/index.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
@@ -21,6 +18,6 @@
   "sidebar": "wetlabSidebar",
   "next": {
     "title": "Experiments",
-    "permalink": "/wetlab/experiments"
+    "permalink": "/iit-madras/wetlab/experiments"
   }
 }

@@ -5,14 +5,11 @@
   "source": "@site/docs/project/engineering.md",
   "sourceDirName": "project",
   "slug": "/project/engineering",
-  "permalink": "/project/engineering",
+  "permalink": "/iit-madras/project/engineering",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/project/engineering.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
@@ -21,10 +18,10 @@
   "sidebar": "projectSidebar",
   "previous": {
     "title": "Project Description",
-    "permalink": "/project/description"
+    "permalink": "/iit-madras/project/description"
   },
   "next": {
     "title": "Results",
-    "permalink": "/project/results"
+    "permalink": "/iit-madras/project/results"
   }
 }

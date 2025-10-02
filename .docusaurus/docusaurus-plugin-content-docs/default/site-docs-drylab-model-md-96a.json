@@ -5,14 +5,11 @@
   "source": "@site/docs/drylab/model.md",
   "sourceDirName": "drylab",
   "slug": "/drylab/model",
-  "permalink": "/drylab/model",
+  "permalink": "/iit-madras/drylab/model",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/drylab/model.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
@@ -21,10 +18,10 @@
   "sidebar": "drylabSidebar",
   "previous": {
     "title": "Dry Lab Overview",
-    "permalink": "/drylab/"
+    "permalink": "/iit-madras/drylab/"
   },
   "next": {
     "title": "Software Development",
-    "permalink": "/drylab/software"
+    "permalink": "/iit-madras/drylab/software"
   }
 }

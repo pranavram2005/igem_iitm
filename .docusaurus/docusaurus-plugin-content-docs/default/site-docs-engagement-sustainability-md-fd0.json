@@ -5,14 +5,11 @@
   "source": "@site/docs/engagement/sustainability.md",
   "sourceDirName": "engagement",
   "slug": "/engagement/sustainability",
-  "permalink": "/engagement/sustainability",
+  "permalink": "/iit-madras/engagement/sustainability",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/engagement/sustainability.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6,
@@ -21,6 +18,6 @@
   "sidebar": "engagementSidebar",
   "previous": {
     "title": "Inclusivity and Diversity",
-    "permalink": "/engagement/inclusivity"
+    "permalink": "/iit-madras/engagement/inclusivity"
   }
 }

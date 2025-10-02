@@ -5,14 +5,11 @@
   "source": "@site/docs/project/results.md",
   "sourceDirName": "project",
   "slug": "/project/results",
-  "permalink": "/project/results",
+  "permalink": "/iit-madras/project/results",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/project/results.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
@@ -21,10 +18,10 @@
   "sidebar": "projectSidebar",
   "previous": {
     "title": "Engineering Success",
-    "permalink": "/project/engineering"
+    "permalink": "/iit-madras/project/engineering"
   },
   "next": {
     "title": "Contribution",
-    "permalink": "/project/contribution"
+    "permalink": "/iit-madras/project/contribution"
   }
 }

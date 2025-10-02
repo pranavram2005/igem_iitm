@@ -10,8 +10,9 @@ export default function RootWrapper(props) {
     progressBar.style.top = '0';
     progressBar.style.left = '0';
     progressBar.style.width = '0%';
+    progressBar.style.marginTop = '90px';
     progressBar.style.height = '4px';
-    progressBar.style.background = 'linear-gradient(90deg, #26d934 0%, #3bdd46 50%, #D926CB 100%)';
+    progressBar.style.background = '#D926CB';
     progressBar.style.zIndex = '10000';
     progressBar.style.transition = 'width 0.1s ease-out';
     progressBar.style.boxShadow = '0 2px 4px rgba(38, 217, 52, 0.3)';

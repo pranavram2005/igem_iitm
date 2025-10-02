@@ -1,0 +1,27 @@
+{
+  "id": "engineering",
+  "title": "Engineering Success",
+  "description": "This page documents our engineering approach, iterative design process, and the success of our engineering solutions.",
+  "source": "@site/docs/engineering.md",
+  "sourceDirName": ".",
+  "slug": "/engineering",
+  "permalink": "/iit-madras/engineering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Engineering Success"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "DESCRIPTION",
+    "permalink": "/iit-madras/project-description"
+  },
+  "next": {
+    "title": "RESULTS",
+    "permalink": "/iit-madras/results"
+  }
+}

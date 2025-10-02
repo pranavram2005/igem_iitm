@@ -3,200 +3,152 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/iit-madras/__docusaurus/debug',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug', 'cc8'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/iit-madras/__docusaurus/debug/config',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/config', 'cbb'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/iit-madras/__docusaurus/debug/content',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/content', 'ea9'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/iit-madras/__docusaurus/debug/globalData',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/globalData', '8a8'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/iit-madras/__docusaurus/debug/metadata',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/metadata', 'a57'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/iit-madras/__docusaurus/debug/registry',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/registry', 'af9'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/iit-madras/__docusaurus/debug/routes',
+    component: ComponentCreator('/iit-madras/__docusaurus/debug/routes', '37b'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e54'),
+    path: '/iit-madras/team',
+    component: ComponentCreator('/iit-madras/team', '031'),
+    exact: true
+  },
+  {
+    path: '/iit-madras/',
+    component: ComponentCreator('/iit-madras/', 'e92'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '860'),
+        path: '/iit-madras/',
+        component: ComponentCreator('/iit-madras/', 'a3e'),
         routes: [
           {
-            path: '/',
-            component: ComponentCreator('/', '6e3'),
+            path: '/iit-madras/',
+            component: ComponentCreator('/iit-madras/', '69c'),
             routes: [
               {
-                path: '/drylab/',
-                component: ComponentCreator('/drylab/', '88c'),
+                path: '/iit-madras/attributions',
+                component: ComponentCreator('/iit-madras/attributions', '176'),
                 exact: true,
-                sidebar: "drylabSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/drylab/hardware',
-                component: ComponentCreator('/drylab/hardware', 'dac'),
+                path: '/iit-madras/contribution',
+                component: ComponentCreator('/iit-madras/contribution', '742'),
                 exact: true,
-                sidebar: "drylabSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/drylab/model',
-                component: ComponentCreator('/drylab/model', '2ab'),
+                path: '/iit-madras/education',
+                component: ComponentCreator('/iit-madras/education', '04c'),
                 exact: true,
-                sidebar: "drylabSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/drylab/software',
-                component: ComponentCreator('/drylab/software', 'b60'),
+                path: '/iit-madras/engineering',
+                component: ComponentCreator('/iit-madras/engineering', 'f72'),
                 exact: true,
-                sidebar: "drylabSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/',
-                component: ComponentCreator('/engagement/', '27d'),
+                path: '/iit-madras/experiments',
+                component: ComponentCreator('/iit-madras/experiments', '9a5'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/education',
-                component: ComponentCreator('/engagement/education', '472'),
+                path: '/iit-madras/future-directions',
+                component: ComponentCreator('/iit-madras/future-directions', '20c'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/entrepreneurship',
-                component: ComponentCreator('/engagement/entrepreneurship', '997'),
+                path: '/iit-madras/human-practices',
+                component: ComponentCreator('/iit-madras/human-practices', '42b'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/human-practices',
-                component: ComponentCreator('/engagement/human-practices', '3e1'),
+                path: '/iit-madras/members',
+                component: ComponentCreator('/iit-madras/members', '6a8'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/inclusivity',
-                component: ComponentCreator('/engagement/inclusivity', '341'),
+                path: '/iit-madras/notebook',
+                component: ComponentCreator('/iit-madras/notebook', '4a4'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/engagement/sustainability',
-                component: ComponentCreator('/engagement/sustainability', '87d'),
+                path: '/iit-madras/plant',
+                component: ComponentCreator('/iit-madras/plant', '15f'),
                 exact: true,
-                sidebar: "engagementSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/project/',
-                component: ComponentCreator('/project/', 'cbc'),
+                path: '/iit-madras/project-description',
+                component: ComponentCreator('/iit-madras/project-description', 'a92'),
                 exact: true,
-                sidebar: "projectSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/project/contribution',
-                component: ComponentCreator('/project/contribution', 'b88'),
+                path: '/iit-madras/project-overview',
+                component: ComponentCreator('/iit-madras/project-overview', '84b'),
                 exact: true,
-                sidebar: "projectSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/project/description',
-                component: ComponentCreator('/project/description', '30a'),
+                path: '/iit-madras/results',
+                component: ComponentCreator('/iit-madras/results', '33b'),
                 exact: true,
-                sidebar: "projectSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/project/engineering',
-                component: ComponentCreator('/project/engineering', 'd1e'),
+                path: '/iit-madras/safety-and-security',
+                component: ComponentCreator('/iit-madras/safety-and-security', '380'),
                 exact: true,
-                sidebar: "projectSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/project/results',
-                component: ComponentCreator('/project/results', '558'),
+                path: '/iit-madras/software',
+                component: ComponentCreator('/iit-madras/software', '461'),
                 exact: true,
-                sidebar: "projectSidebar"
+                sidebar: "mainSidebar"
               },
               {
-                path: '/team/',
-                component: ComponentCreator('/team/', '281'),
+                path: '/iit-madras/',
+                component: ComponentCreator('/iit-madras/', '8e9'),
                 exact: true,
-                sidebar: "teamSidebar"
-              },
-              {
-                path: '/team/attributions',
-                component: ComponentCreator('/team/attributions', '60d'),
-                exact: true,
-                sidebar: "teamSidebar"
-              },
-              {
-                path: '/team/members',
-                component: ComponentCreator('/team/members', '31a'),
-                exact: true,
-                sidebar: "teamSidebar"
-              },
-              {
-                path: '/wetlab/',
-                component: ComponentCreator('/wetlab/', 'c31'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/wetlab/experiments',
-                component: ComponentCreator('/wetlab/experiments', 'fe4'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/wetlab/measurement',
-                component: ComponentCreator('/wetlab/measurement', 'be0'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/wetlab/notebook',
-                component: ComponentCreator('/wetlab/notebook', '2d8'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/wetlab/plant',
-                component: ComponentCreator('/wetlab/plant', 'ad2'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/wetlab/safety-and-security',
-                component: ComponentCreator('/wetlab/safety-and-security', '673'),
-                exact: true,
-                sidebar: "wetlabSidebar"
-              },
-              {
-                path: '/',
-                component: ComponentCreator('/', '8bb'),
-                exact: true
+                sidebar: "mainSidebar"
               }
             ]
           }

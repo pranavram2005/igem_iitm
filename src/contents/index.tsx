@@ -14,7 +14,6 @@ export * from "./measurement.tsx";
 export * from "./plant.tsx";
 export * from "./safety-and-security.tsx";
 // Dry Lab
-export * from "./model.tsx";
 export * from "./software.tsx";
 export * from "./hardware.tsx";
 // Engagement

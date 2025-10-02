@@ -1,0 +1,27 @@
+{
+  "id": "results",
+  "title": "Results",
+  "description": "This page presents the key findings and outcomes of our project work.",
+  "source": "@site/docs/results.md",
+  "sourceDirName": ".",
+  "slug": "/results",
+  "permalink": "/iit-madras/results",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Results"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "ENGINEERING SUCCESS",
+    "permalink": "/iit-madras/engineering"
+  },
+  "next": {
+    "title": "FUTURE DIRECTIONS",
+    "permalink": "/iit-madras/future-directions"
+  }
+}

@@ -4,11 +4,11 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "IIT Madras iGEM 2025",
+  "title": "EPIC",
   "tagline": "International Genetically Engineered Machine Competition",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
+  "favicon": "https://static.igem.wiki/teams/5657/navbar/logo.webp",
+  "url": "https://2025.igem.wiki",
+  "baseUrl": "/iit-madras/",
   "organizationName": "iit-madras",
   "projectName": "igem2025",
   "onBrokenLinks": "throw",
@@ -47,9 +47,9 @@ export default {
         "docs": {
           "sidebarPath": "./sidebars.ts",
           "routeBasePath": "/",
-          "editUrl": "https://github.com/iit-madras/igem2025/tree/main/",
-          "showLastUpdateTime": true,
-          "showLastUpdateAuthor": true
+          "showLastUpdateTime": false,
+          "showLastUpdateAuthor": false,
+          "breadcrumbs": false
         },
         "blog": false,
         "theme": {
@@ -59,136 +59,126 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "https://static.igem.wiki/teams/5657/navbar/logo.webp",
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 2
     },
     "navbar": {
-      "title": "IIT Madras iGEM 2025",
+      "title": "Epigenetic Programmable Intervention Control",
       "logo": {
-        "alt": "IIT Madras Logo",
-        "src": "img/logo.svg"
+        "alt": "IIT Madras iGEM Logo",
+        "src": "https://static.igem.wiki/teams/5657/navbar/logo.webp"
       },
       "items": [
         {
+          "to": "/",
+          "label": "HOME",
+          "position": "right"
+        },
+        {
           "type": "dropdown",
-          "label": "Team",
+          "label": "PROJECTS",
           "position": "right",
           "items": [
             {
-              "to": "/team/",
-              "label": "Team Overview"
+              "to": "/project-overview",
+              "label": "OVERVIEW"
             },
             {
-              "to": "/team/members",
-              "label": "Members"
+              "to": "/project-description",
+              "label": "DESCRIPTION"
             },
             {
-              "to": "/team/attributions",
-              "label": "Attributions"
+              "to": "/engineering",
+              "label": "ENGINEERING SUCCESS"
+            },
+            {
+              "to": "/results",
+              "label": "RESULTS"
+            },
+            {
+              "to": "/future-directions",
+              "label": "FUTURE DIRECTIONS"
+            },
+            {
+              "to": "/contribution",
+              "label": "CONTRIBUTIONS"
             }
           ]
         },
         {
           "type": "dropdown",
-          "label": "Project",
+          "label": "WET LAB",
           "position": "right",
           "items": [
             {
-              "to": "/project/",
-              "label": "Project Overview"
+              "to": "/experiments",
+              "label": "EXPERIMENTS"
             },
             {
-              "to": "/project/description",
-              "label": "Description"
+              "to": "/notebook",
+              "label": "NOTEBOOK"
             },
             {
-              "to": "/project/engineering",
-              "label": "Engineering"
+              "to": "/safety-and-security",
+              "label": "SAFETY"
             },
             {
-              "to": "/project/results",
-              "label": "Results"
-            },
-            {
-              "to": "/project/contribution",
-              "label": "Contribution"
+              "to": "/plant",
+              "label": "PART COLLECTION"
             }
           ]
         },
         {
           "type": "dropdown",
-          "label": "Wet Lab",
+          "label": "DRY LAB",
           "position": "right",
           "items": [
             {
-              "to": "/wetlab/",
-              "label": "Lab Overview"
-            },
-            {
-              "to": "/wetlab/experiments",
-              "label": "Experiments"
-            },
-            {
-              "to": "/wetlab/notebook",
-              "label": "Notebook"
-            },
-            {
-              "to": "/wetlab/safety-and-security",
-              "label": "Safety & Security"
+              "to": "/software",
+              "label": "SOFTWARE"
             }
           ]
         },
         {
           "type": "dropdown",
-          "label": "Dry Lab",
+          "label": "HUMAN PRACTICES",
           "position": "right",
           "items": [
             {
-              "to": "/drylab/",
-              "label": "Dry Lab Overview"
+              "to": "/human-practices",
+              "label": "iHP"
             },
             {
-              "to": "/drylab/model",
-              "label": "Modeling"
-            },
-            {
-              "to": "/drylab/software",
-              "label": "Software"
-            },
-            {
-              "to": "/drylab/hardware",
-              "label": "Hardware"
-            }
-          ]
-        },
-        {
-          "type": "dropdown",
-          "label": "Engagement",
-          "position": "right",
-          "items": [
-            {
-              "to": "/engagement/",
-              "label": "Engagement Overview"
-            },
-            {
-              "to": "/engagement/human-practices",
-              "label": "Human Practices"
-            },
-            {
-              "to": "/engagement/education",
+              "to": "/education",
               "label": "Education"
-            },
-            {
-              "to": "/engagement/inclusivity",
-              "label": "Inclusivity"
             }
           ]
         },
         {
-          "href": "https://github.com/iit-madras/igem2025",
-          "label": "GitHub",
+          "type": "dropdown",
+          "label": "TEAM",
+          "position": "right",
+          "items": [
+            {
+              "to": "/attributions",
+              "label": "ATTRIBUTIONS"
+            },
+            {
+              "to": "/members",
+              "label": "MEMBERS"
+            }
+          ]
+        },
+        {
+          "href": "https://gitlab.igem.org/2025/iit-madras",
+          "label": "GitLab",
           "position": "right"
         }
       ],
@@ -198,49 +188,61 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Project",
+          "title": "PROJECTS",
           "items": [
             {
-              "label": "Description",
-              "to": "/project/description"
+              "label": "OVERVIEW",
+              "to": "/project-overview"
             },
             {
-              "label": "Engineering",
-              "to": "/project/engineering"
+              "label": "DESCRIPTION",
+              "to": "/project-description"
             },
             {
-              "label": "Results",
-              "to": "/project/results"
+              "label": "ENGINEERING SUCCESS",
+              "to": "/engineering"
+            },
+            {
+              "label": "RESULTS",
+              "to": "/results"
             }
           ]
         },
         {
-          "title": "Lab Work",
+          "title": "LAB WORK",
           "items": [
             {
-              "label": "Experiments",
-              "to": "/wetlab/experiments"
+              "label": "EXPERIMENTS",
+              "to": "/experiments"
             },
             {
-              "label": "Notebook",
-              "to": "/wetlab/notebook"
+              "label": "NOTEBOOK",
+              "to": "/notebook"
             },
             {
-              "label": "Safety",
-              "to": "/wetlab/safety-and-security"
+              "label": "SAFETY",
+              "to": "/safety-and-security"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "TEAM & PRACTICES",
           "items": [
             {
-              "label": "GitHub",
-              "href": "https://github.com/iit-madras/igem2025"
+              "label": "MEMBERS",
+              "to": "/members"
             },
             {
-              "label": "iGEM",
-              "href": "https://igem.org"
+              "label": "ATTRIBUTIONS",
+              "to": "/attributions"
+            },
+            {
+              "label": "iHP",
+              "to": "/human-practices"
+            },
+            {
+              "label": "Education",
+              "to": "/education"
             }
           ]
         }
@@ -451,10 +453,12 @@ export default {
         }
       ]
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -468,14 +472,7 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    }
+    "metadata": []
   },
   "baseUrlIssueBanner": true,
   "future": {

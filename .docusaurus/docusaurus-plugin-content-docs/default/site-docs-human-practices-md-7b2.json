@@ -1,0 +1,27 @@
+{
+  "id": "human-practices",
+  "title": "Human Practices",
+  "description": "Our comprehensive approach to understanding and addressing the social, ethical, and environmental implications of our project.",
+  "source": "@site/docs/human-practices.md",
+  "sourceDirName": ".",
+  "slug": "/human-practices",
+  "permalink": "/iit-madras/human-practices",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Human Practices"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "SOFTWARE",
+    "permalink": "/iit-madras/software"
+  },
+  "next": {
+    "title": "EDUCATION",
+    "permalink": "/iit-madras/education"
+  }
+}

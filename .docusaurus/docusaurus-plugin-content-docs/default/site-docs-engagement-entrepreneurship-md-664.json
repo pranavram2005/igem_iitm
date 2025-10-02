@@ -5,14 +5,11 @@
   "source": "@site/docs/engagement/entrepreneurship.md",
   "sourceDirName": "engagement",
   "slug": "/engagement/entrepreneurship",
-  "permalink": "/engagement/entrepreneurship",
+  "permalink": "/iit-madras/engagement/entrepreneurship",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/engagement/entrepreneurship.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
@@ -21,10 +18,10 @@
   "sidebar": "engagementSidebar",
   "previous": {
     "title": "Engagement Overview",
-    "permalink": "/engagement/"
+    "permalink": "/iit-madras/engagement/"
   },
   "next": {
     "title": "Human Practices",
-    "permalink": "/engagement/human-practices"
+    "permalink": "/iit-madras/engagement/human-practices"
   }
 }

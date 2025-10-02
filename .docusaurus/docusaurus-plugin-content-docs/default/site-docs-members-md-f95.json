@@ -1,0 +1,24 @@
+{
+  "id": "members",
+  "title": "Team Members",
+  "description": "Welcome to our team page! Meet the talented individuals who make up the iGEM IIT Madras team for 2025.",
+  "source": "@site/docs/members.md",
+  "sourceDirName": ".",
+  "slug": "/members",
+  "permalink": "/iit-madras/members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Team Members",
+    "slug": "/members"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "ATTRIBUTIONS",
+    "permalink": "/iit-madras/attributions"
+  }
+}

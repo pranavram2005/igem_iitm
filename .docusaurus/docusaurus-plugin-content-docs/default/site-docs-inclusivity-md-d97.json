@@ -1,0 +1,18 @@
+{
+  "id": "inclusivity",
+  "title": "Inclusivity and Diversity",
+  "description": "Our commitment to making synthetic biology and iGEM more inclusive and accessible to diverse communities and underrepresented groups.",
+  "source": "@site/docs/inclusivity.md",
+  "sourceDirName": ".",
+  "slug": "/inclusivity",
+  "permalink": "/iit-madras/inclusivity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Inclusivity and Diversity"
+  }
+}

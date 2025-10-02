@@ -1,0 +1,27 @@
+{
+  "id": "contribution",
+  "title": "Contribution",
+  "description": "Our Contributions",
+  "source": "@site/docs/contribution.md",
+  "sourceDirName": ".",
+  "slug": "/contribution",
+  "permalink": "/iit-madras/contribution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Contribution"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "FUTURE DIRECTIONS",
+    "permalink": "/iit-madras/future-directions"
+  },
+  "next": {
+    "title": "EXPERIMENTS",
+    "permalink": "/iit-madras/experiments"
+  }
+}

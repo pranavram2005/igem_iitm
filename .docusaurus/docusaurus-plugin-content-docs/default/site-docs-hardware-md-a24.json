@@ -1,0 +1,18 @@
+{
+  "id": "hardware",
+  "title": "Hardware Development",
+  "description": "Physical devices, measurement instruments, and automation systems designed and built for our project.",
+  "source": "@site/docs/hardware.md",
+  "sourceDirName": ".",
+  "slug": "/hardware",
+  "permalink": "/iit-madras/hardware",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Hardware Development"
+  }
+}

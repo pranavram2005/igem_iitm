@@ -5,18 +5,20 @@
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/",
+  "permalink": "/iit-madras/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/index.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
     "slug": "/",
     "title": "IIT Madras iGEM 2025"
+  },
+  "sidebar": "mainSidebar",
+  "next": {
+    "title": "OVERVIEW",
+    "permalink": "/iit-madras/project-overview"
   }
 }

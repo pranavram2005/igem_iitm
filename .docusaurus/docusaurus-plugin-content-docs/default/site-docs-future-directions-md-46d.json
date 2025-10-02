@@ -1,0 +1,28 @@
+{
+  "id": "future-directions",
+  "title": "Future Directions",
+  "description": "Expanding the EPIC System",
+  "source": "@site/docs/future-directions.md",
+  "sourceDirName": ".",
+  "slug": "/future-directions",
+  "permalink": "/iit-madras/future-directions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Future Directions",
+    "slug": "/future-directions"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "RESULTS",
+    "permalink": "/iit-madras/results"
+  },
+  "next": {
+    "title": "CONTRIBUTIONS",
+    "permalink": "/iit-madras/contribution"
+  }
+}

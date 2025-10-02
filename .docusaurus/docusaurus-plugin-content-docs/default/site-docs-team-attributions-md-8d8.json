@@ -5,14 +5,11 @@
   "source": "@site/docs/team/attributions.md",
   "sourceDirName": "team",
   "slug": "/team/attributions",
-  "permalink": "/team/attributions",
+  "permalink": "/iit-madras/team/attributions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/team/attributions.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
@@ -21,6 +18,6 @@
   "sidebar": "teamSidebar",
   "previous": {
     "title": "Team Members",
-    "permalink": "/team/members"
+    "permalink": "/iit-madras/team/members"
   }
 }

@@ -1,158 +1,129 @@
 {
-  "/__docusaurus/debug-5ff": {
+  "/iit-madras/__docusaurus/debug-cc8": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/__docusaurus/debug/config-5ba": {
+  "/iit-madras/__docusaurus/debug/config-cbb": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/__docusaurus/debug/content-a2b": {
+  "/iit-madras/__docusaurus/debug/content-ea9": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "__props": "__props---iit-madras-docusaurus-debug-content-313-25a"
   },
-  "/__docusaurus/debug/globalData-c3c": {
+  "/iit-madras/__docusaurus/debug/globalData-8a8": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/__docusaurus/debug/metadata-156": {
+  "/iit-madras/__docusaurus/debug/metadata-a57": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/__docusaurus/debug/registry-88c": {
+  "/iit-madras/__docusaurus/debug/registry-af9": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/__docusaurus/debug/routes-000": {
+  "/iit-madras/__docusaurus/debug/routes-37b": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---iit-madras-docusaurus-debugb-38-842"
     }
   },
-  "/-e54": {
+  "/iit-madras/team-031": {
+    "__comp": "__comp---site-src-pages-team-tsxe-03-071",
+    "__context": {
+      "plugin": "plugin---iit-madras-teama-74-9bf"
+    },
+    "config": "config---iit-madras-team-5-e-9-836"
+  },
+  "/iit-madras/-e92": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "plugin---iit-madras-aba-9c5"
     }
   },
-  "/-860": {
+  "/iit-madras/-a3e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+    "__props": "__props---iit-madras-610-9d0"
   },
-  "/-6e3": {
+  "/iit-madras/-69c": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/drylab/-88c": {
+  "/iit-madras/attributions-176": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---drylab-b-07-adf"
+    "content": "content---iit-madras-attributions-7-df-6c5"
   },
-  "/drylab/hardware-dac": {
+  "/iit-madras/contribution-742": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---drylab-hardware-8-ff-7cb"
+    "content": "content---iit-madras-contribution-416-5ef"
   },
-  "/drylab/model-2ab": {
+  "/iit-madras/education-04c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---drylab-model-96-a-fe8"
+    "content": "content---iit-madras-education-404-f22"
   },
-  "/drylab/software-b60": {
+  "/iit-madras/engineering-f72": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---drylab-software-804-a83"
+    "content": "content---iit-madras-engineering-352-711"
   },
-  "/engagement/-27d": {
+  "/iit-madras/experiments-9a5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-ee-3-484"
+    "content": "content---iit-madras-experiments-3-bf-02a"
   },
-  "/engagement/education-472": {
+  "/iit-madras/future-directions-20c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-education-598-2c6"
+    "content": "content---iit-madras-future-directions-46-d-f55"
   },
-  "/engagement/entrepreneurship-997": {
+  "/iit-madras/human-practices-42b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-entrepreneurship-664-ec4"
+    "content": "content---iit-madras-human-practices-7-b-2-1ca"
   },
-  "/engagement/human-practices-3e1": {
+  "/iit-madras/members-6a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-human-practicesd-04-951"
+    "content": "content---iit-madras-membersf-95-d2b"
   },
-  "/engagement/inclusivity-341": {
+  "/iit-madras/notebook-4a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-inclusivity-972-54e"
+    "content": "content---iit-madras-notebook-1-c-5-2e7"
   },
-  "/engagement/sustainability-87d": {
+  "/iit-madras/plant-15f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---engagement-sustainabilityfd-0-c8f"
+    "content": "content---iit-madras-plant-0-d-5-a42"
   },
-  "/project/-cbc": {
+  "/iit-madras/project-description-a92": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-5-dc-c49"
+    "content": "content---iit-madras-project-description-0-b-3-62d"
   },
-  "/project/contribution-b88": {
+  "/iit-madras/project-overview-84b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-contribution-55-d-f7a"
+    "content": "content---iit-madras-project-overviewd-4-e-661"
   },
-  "/project/description-30a": {
+  "/iit-madras/results-33b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-descriptionce-4-3c1"
+    "content": "content---iit-madras-results-3-e-7-335"
   },
-  "/project/engineering-d1e": {
+  "/iit-madras/safety-and-security-380": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-engineeringf-2-a-175"
+    "content": "content---iit-madras-safety-and-security-0-d-0-51f"
   },
-  "/project/results-558": {
+  "/iit-madras/software-461": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-resultscda-ab3"
+    "content": "content---iit-madras-software-5-db-eb7"
   },
-  "/team/-281": {
+  "/iit-madras/-8e9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---team-c-41-dce"
-  },
-  "/team/attributions-60d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---team-attributions-8-d-8-ced"
-  },
-  "/team/members-31a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---team-membersb-5-f-458"
-  },
-  "/wetlab/-c31": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-493-eb2"
-  },
-  "/wetlab/experiments-fe4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-experimentsdb-5-45e"
-  },
-  "/wetlab/measurement-be0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-measurement-361-dca"
-  },
-  "/wetlab/notebook-2d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-notebook-734-bdc"
-  },
-  "/wetlab/plant-ad2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-plant-06-f-8f8"
-  },
-  "/wetlab/safety-and-security-673": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wetlab-safety-and-security-30-f-be5"
-  },
-  "/-8bb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---c-37-d02"
+    "content": "content---iit-madras-c-37-8b6"
   }
 }

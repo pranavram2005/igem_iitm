@@ -1,0 +1,27 @@
+{
+  "id": "plant",
+  "title": "Plant Research",
+  "description": "Plant-related experiments, agricultural applications, and botanical studies (if applicable to your project).",
+  "source": "@site/docs/plant.md",
+  "sourceDirName": ".",
+  "slug": "/plant",
+  "permalink": "/iit-madras/plant",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Plant Research"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "SAFETY",
+    "permalink": "/iit-madras/safety-and-security"
+  },
+  "next": {
+    "title": "SOFTWARE",
+    "permalink": "/iit-madras/software"
+  }
+}

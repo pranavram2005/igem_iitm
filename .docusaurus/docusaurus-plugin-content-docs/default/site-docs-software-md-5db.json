@@ -1,0 +1,27 @@
+{
+  "id": "software",
+  "title": "Software Development",
+  "description": "Custom software tools, analysis scripts, and computational resources we've developed for our project and the community.",
+  "source": "@site/docs/software.md",
+  "sourceDirName": ".",
+  "slug": "/software",
+  "permalink": "/iit-madras/software",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Software Development"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "PART COLLECTION",
+    "permalink": "/iit-madras/plant"
+  },
+  "next": {
+    "title": "HP",
+    "permalink": "/iit-madras/human-practices"
+  }
+}

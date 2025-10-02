@@ -5,14 +5,11 @@
   "source": "@site/docs/drylab/hardware.md",
   "sourceDirName": "drylab",
   "slug": "/drylab/hardware",
-  "permalink": "/drylab/hardware",
+  "permalink": "/iit-madras/drylab/hardware",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/drylab/hardware.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
@@ -21,6 +18,6 @@
   "sidebar": "drylabSidebar",
   "previous": {
     "title": "Software Development",
-    "permalink": "/drylab/software"
+    "permalink": "/iit-madras/drylab/software"
   }
 }

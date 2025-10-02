@@ -5,14 +5,11 @@
   "source": "@site/docs/project/index.md",
   "sourceDirName": "project",
   "slug": "/project/",
-  "permalink": "/project/",
+  "permalink": "/iit-madras/project/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/project/index.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
@@ -21,6 +18,6 @@
   "sidebar": "projectSidebar",
   "next": {
     "title": "Project Description",
-    "permalink": "/project/description"
+    "permalink": "/iit-madras/project/description"
   }
 }

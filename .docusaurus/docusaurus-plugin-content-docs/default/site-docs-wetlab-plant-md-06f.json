@@ -5,14 +5,11 @@
   "source": "@site/docs/wetlab/plant.md",
   "sourceDirName": "wetlab",
   "slug": "/wetlab/plant",
-  "permalink": "/wetlab/plant",
+  "permalink": "/iit-madras/wetlab/plant",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/iit-madras/igem2025/tree/main/docs/wetlab/plant.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5,
@@ -21,10 +18,10 @@
   "sidebar": "wetlabSidebar",
   "previous": {
     "title": "Measurement",
-    "permalink": "/wetlab/measurement"
+    "permalink": "/iit-madras/wetlab/measurement"
   },
   "next": {
     "title": "Safety and Security",
-    "permalink": "/wetlab/safety-and-security"
+    "permalink": "/iit-madras/wetlab/safety-and-security"
   }
 }

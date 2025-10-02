@@ -1,0 +1,28 @@
+{
+  "id": "notebook",
+  "title": "Notebook",
+  "description": "Our complete laboratory notebook documenting daily activities, observations, and experimental progress throughout the EPIC System development.",
+  "source": "@site/docs/notebook.md",
+  "sourceDirName": ".",
+  "slug": "/notebook",
+  "permalink": "/iit-madras/notebook",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Notebook",
+    "slug": "/notebook"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "EXPERIMENTS",
+    "permalink": "/iit-madras/experiments"
+  },
+  "next": {
+    "title": "SAFETY",
+    "permalink": "/iit-madras/safety-and-security"
+  }
+}

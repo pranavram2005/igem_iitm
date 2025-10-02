@@ -1,0 +1,18 @@
+{
+  "id": "sustainability",
+  "title": "Sustainability",
+  "description": "Environmental impact assessment, sustainable development considerations, and our commitment to responsible innovation.",
+  "source": "@site/docs/sustainability.md",
+  "sourceDirName": ".",
+  "slug": "/sustainability",
+  "permalink": "/iit-madras/sustainability",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Sustainability"
+  }
+}
