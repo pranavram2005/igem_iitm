@@ -121,11 +121,6 @@ const sidebars: SidebarsConfig = {
           id: 'attributions',
           label: 'ATTRIBUTIONS',
         },
-        {
-          type: 'doc',
-          id: 'team',
-          label: 'TEAM',
-        },
       ],
     },
   ],
