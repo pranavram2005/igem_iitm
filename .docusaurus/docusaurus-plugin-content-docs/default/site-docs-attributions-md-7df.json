@@ -1,7 +1,7 @@
 {
   "id": "attributions",
   "title": "Attributions",
-  "description": "Describe what work your team members did and what other people did for your project using the standardized Project Attributions Form.",
+  "description": "// iframe height listener script",
   "source": "@site/docs/attributions.md",
   "sourceDirName": ".",
   "slug": "/attributions",
@@ -19,9 +19,5 @@
   "previous": {
     "title": "EDUCATION",
     "permalink": "/iit-madras/education"
-  },
-  "next": {
-    "title": "MEMBERS",
-    "permalink": "/iit-madras/members"
   }
 }

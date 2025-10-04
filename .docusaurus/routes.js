@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/iit-madras/',
-    component: ComponentCreator('/iit-madras/', 'e92'),
+    component: ComponentCreator('/iit-madras/', '5c4'),
     routes: [
       {
         path: '/iit-madras/',
-        component: ComponentCreator('/iit-madras/', 'a3e'),
+        component: ComponentCreator('/iit-madras/', '819'),
         routes: [
           {
             path: '/iit-madras/',
-            component: ComponentCreator('/iit-madras/', '69c'),
+            component: ComponentCreator('/iit-madras/', '680'),
             routes: [
               {
                 path: '/iit-madras/attributions',
@@ -93,12 +93,6 @@ export default [
               {
                 path: '/iit-madras/human-practices',
                 component: ComponentCreator('/iit-madras/human-practices', '42b'),
-                exact: true,
-                sidebar: "mainSidebar"
-              },
-              {
-                path: '/iit-madras/members',
-                component: ComponentCreator('/iit-madras/members', '6a8'),
                 exact: true,
                 sidebar: "mainSidebar"
               },

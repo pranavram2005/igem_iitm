@@ -171,8 +171,8 @@ const config: Config = {
               label: 'ATTRIBUTIONS',
             },
             {
-              to: '/members',
-              label: 'MEMBERS',
+              to: '/team',
+              label: 'TEAM',
             },
           ],
         },
@@ -228,8 +228,8 @@ const config: Config = {
           title: 'TEAM & PRACTICES',
           items: [
             {
-              label: 'MEMBERS',
-              to: '/members',
+              label: 'TEAM',
+              to: '/team',
             },
             {
               label: 'ATTRIBUTIONS',

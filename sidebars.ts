@@ -123,8 +123,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
-          id: 'members',
-          label: 'MEMBERS',
+          id: 'team',
+          label: 'TEAM',
         },
       ],
     },

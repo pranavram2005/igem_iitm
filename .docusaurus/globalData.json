@@ -51,11 +51,6 @@
               "sidebar": "mainSidebar"
             },
             {
-              "id": "members",
-              "path": "/iit-madras/members",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "notebook",
               "path": "/iit-madras/notebook",
               "sidebar": "mainSidebar"

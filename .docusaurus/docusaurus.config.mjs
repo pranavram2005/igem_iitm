@@ -70,7 +70,7 @@ export default {
       "maxHeadingLevel": 2
     },
     "navbar": {
-      "title": "Epigenetic Programmable Intervention Control",
+      "title": "EPIC",
       "logo": {
         "alt": "IIT Madras iGEM Logo",
         "src": "https://static.igem.wiki/teams/5657/navbar/logo.webp"
@@ -171,8 +171,8 @@ export default {
               "label": "ATTRIBUTIONS"
             },
             {
-              "to": "/members",
-              "label": "MEMBERS"
+              "to": "/team",
+              "label": "TEAM"
             }
           ]
         },
@@ -453,13 +453,6 @@ export default {
         }
       ]
     },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -472,7 +465,14 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": []
+    "metadata": [],
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
+    }
   },
   "baseUrlIssueBanner": true,
   "future": {
