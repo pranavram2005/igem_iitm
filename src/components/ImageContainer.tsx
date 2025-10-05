@@ -14,7 +14,7 @@ const ImageContainer: React.FC<ImageContainerProps> = ({
   src,
   alt,
   caption,
-  width = '100%',
+  width,
   height = 'auto',
   className = ''
 }) => {
@@ -62,7 +62,7 @@ const ImageContainer: React.FC<ImageContainerProps> = ({
           <img
             src={src}
             alt={alt}
-            style={{ width, height }}
+            style={{ height }}
             className={styles.image}
           />
           <div className={styles.fullscreenHint}>

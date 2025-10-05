@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkiit_madras_igem=self.webpackChunkiit_madras_igem||[]).push([[2068],{2068:(e,a,i)=>{i.d(a,{createInfoServices:()=>s.v});var s=i(1366);i(8198)}}]);

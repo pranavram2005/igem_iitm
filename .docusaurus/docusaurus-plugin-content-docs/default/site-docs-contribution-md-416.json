@@ -1,7 +1,7 @@
 {
   "id": "contribution",
   "title": "Contribution",
-  "description": "Our Contributions",
+  "description": "Experimental",
   "source": "@site/docs/contribution.md",
   "sourceDirName": ".",
   "slug": "/contribution",

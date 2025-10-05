@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkiit_madras_igem=self.webpackChunkiit_madras_igem||[]).push([[8188],{8188:(e,i,a)=>{a.d(i,{createPieServices:()=>s.f});var s=a(9786);a(8198)}}]);

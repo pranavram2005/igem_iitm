@@ -1,7 +1,7 @@
 {
   "id": "engineering",
   "title": "Engineering Success",
-  "description": "This page documents our engineering approach, iterative design process, and the success of our engineering solutions.",
+  "description": "{`",
   "source": "@site/docs/engineering.md",
   "sourceDirName": ".",
   "slug": "/engineering",

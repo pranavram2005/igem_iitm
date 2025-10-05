@@ -2,15 +2,16 @@
 
 .imageContainer {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: 1rem 0;
-  max-width: 100%;
+  width: 100%;
   cursor: pointer;
 }
 
 .imageWrapper {
   position: relative;
-  display: inline-block;
+  display: block;
+  width: 100%;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -29,7 +30,7 @@
 
 .image {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   transition: transform 0.3s ease;
 }

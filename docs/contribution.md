@@ -7,7 +7,7 @@ import ImageContainer from '@site/src/components/ImageContainer';
 
 # Contribution
 
-## Our Contributions
+## Experimental
 
 ### Experimental Foundation and Plasmid Systems
 
@@ -44,14 +44,14 @@ We carried out **co-transformation experiments with dnaAP2-GFP and dCas9-Dam pla
 
 Our team prepared and validated highly competent **E. coli XL1-Blue cells** and **dam-negative competent cells**, creating reliable stocks for use in methylation-sensitive experiments. These validated cell lines are crucial resources for teams working on DNA methylation projects.
 
+
+
+### Novel Memory Encoding System Concept
 <ImageContainer 
   src="https://static.igem.wiki/teams/5657/contributions/contribution.webp" 
   alt="Overview of our key contributions to the iGEM community"
   caption="Visual summary of our experimental and theoretical contributions"
 />
-
-### Novel Memory Encoding System Concept
-
 We ideated on a **novel memory encoding system for E. coli using methylation**, which has several applications in:
 - Bio-sensors
 - Memory-regulated biomanufacturing
@@ -70,3 +70,6 @@ This conceptual framework opens new avenues for synthetic biology applications i
 ### Computational Contributions
 
 We developed a **methylation-sensitive promoter design** and conducted comprehensive studies on **the effects of methylation in prokaryotes**. This computational work provides important theoretical foundations for understanding and predicting methylation-based regulation systems.
+
+## Computational
+
