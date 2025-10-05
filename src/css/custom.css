@@ -8,26 +8,64 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Main color palette */
+  /* Centralized element variables + IFM aliases
+   - Edit the variables below only. All site colors pull from these tokens.
+*/
 :root {
+  /* Typography */
   --ifm-font-family-base: Arial, Helvetica, sans-serif;
   --ifm-font-family-monospace: 'Courier New', Courier, monospace;
-  --ifm-color-primary: #26d934;
-  --ifm-color-primary-dark: #21c42d;
-  --ifm-color-primary-darker: #1fb82a;
-  --ifm-color-primary-darkest: #1a9623;
-  --ifm-color-primary-light: #3bdd46;
-  --ifm-color-primary-lighter: #41df4c;
-  --ifm-color-primary-lightest: #5ce365;
+
+  /* Element-first variables (edit these directly) */
+    --navbar-bg: #e81414;           /* navbar background */
+  --navbar-text: #2c73bf;         /* navbar text */
+  --ifm-color-primary-darkest: #6c4545; /*main heading*/
+  --primary-dark: #55ac12;        /* sub-title*/
+  --primary: #513b24;             /* design and right-menu line */
+  --primary-light: #433018;       /* right-menu line extra */
+
+
   
-  /* Secondary color */
-  --ifm-color-secondary: #D926CB;
-  --ifm-color-secondary-dark: #c622b7;
+  --primary-tint: rgba(0, 0, 0, 0.08);
+  --page-bg: #ca2b2b;             /* page background */
+  --sidebar-bg: #ae0707;          /* sidebar background */
+  --text-color: #1158d2;          /* main text */
+  --muted-color: #4a5568;         /* secondary / muted text */
+  --border-color: #e2e8f0;        /* borders / cards */
+
+
+  --heading-grad-start: var(--primary);
+  --heading-grad-end: #cd00ae;
+
+  --button-text: #ffffff;
+  --shadow: 0 8px 32px rgba(0,0,0,0.12);
+  --progress-color: #000000;
+
+  /* team page specific tokens (preserve original colors) */
+  --team-bg-start: #f8fff8;
+  --team-bg-end: #f0fff0;
+  --team-accent-1: #029E4E;
+  --team-accent-2: #8B5CF6;
+
+  /* IFM / Docusaurus aliases -> map to element vars for compatibility */
+  --ifm-color-primary: var(--primary);
+  --ifm-color-primary-dark: var(--primary-dark);
+  --ifm-color-primary-darker: #bcbcbc;  
+  --ifm-color-primary-light: var(--primary-light);
+  --ifm-color-primary-lighter: #000300;
+  --ifm-color-primary-lightest: rgb(41, 177, 156);
+  --ifm-color-secondary: #d926cb;
+  --ifm-color-secondary-dark: #342833;
   --ifm-color-secondary-darker: #bb20ac;
   --ifm-color-secondary-darkest: #9a1b8e;
-  
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(38, 217, 52, 0.1);
+  --ifm-navbar-background-color: var(--navbar-bg);
+  --ifm-navbar-link-color: var(--navbar-text);
+  --ifm-background-color: var(--page-bg);
+  --ifm-font-color-base: var(--text-color);
+  --docusaurus-progress-bar-color: var(--primary);
+
+  /* utility */
+  --scroll-progress: 0%;
 }
 
 /* Overall page styling inspired by Heidelberg iGEM */
@@ -38,119 +76,102 @@ body {
 }
 
 /* Hero section styling */
-.hero {
-  background: linear-gradient(135deg, rgba(38, 217, 52, 0.05) 0%, rgba(217, 38, 203, 0.05) 100%);
-  padding: 4rem 2rem;
-  text-align: center;
-  margin-bottom: 3rem;
-  border-radius: 0 0 24px 24px;
+/* Page basics */
+html, body {
+  background: var(--page-bg);
+  color: var(--text-color);
+  font-family: var(--ifm-font-family-base);
 }
 
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
+/* Navbar */
+.navbar {
+  background: var(--navbar-bg);
+  color: var(--navbar-text);
+  min-height: 80px;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
+.navbar__inner { display:flex; align-items:center; justify-content:space-between; padding:0 1rem }
+.navbar__brand { display:flex; align-items:center }
+.navbar__logo { border:none; display:block; padding:0 }
+.navbar__logo img { height: 110px; width: 110px; border-radius:50%; margin-left:12px }
+.navbar__title { color: var(--navbar-text); font-weight:700; margin-left:.75rem }
+.navbar__link { color: var(--navbar-text); padding:.6rem .9rem; border-radius:6px; transition:background .18s }
+.navbar__link:hover { background: color-mix(in srgb, var(--navbar-text) 6%, transparent) }
 
-.hero p {
-  font-size: 1.3rem;
-  color: #4a5568;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
+/* Hero */
+.hero { padding:3.5rem 2rem; margin-bottom:2.5rem; border-radius:0 0 18px 18px; background: linear-gradient(135deg, var(--primary-tint), color-mix(in srgb, var(--heading-grad-end) 3%, transparent)); }
+.hero h1 { font-size:3rem; font-weight:800; background: linear-gradient(135deg, var(--heading-grad-start), var(--heading-grad-end)); -webkit-background-clip:text; background-clip:text; color:transparent }
+.hero p { color: var(--muted-color); max-width:800px; margin:0 auto; font-size:1.1rem }
 
-/* Section navigation */
-.section-nav {
-  background: #f8fafc;
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  border: 1px solid #e2e8f0;
-}
+/* Section nav / sidebar */
+.section-nav { background: var(--sidebar-bg); padding:1rem; border-radius:10px; border:1px solid var(--border-color) }
+.section-nav h4 { color: var(--primary-dark); margin-bottom:.75rem }
+.section-nav a { color: var(--text-color); display:inline-block; padding:.5rem; border-radius:6px }
+.section-nav a:hover { background: var(--primary); color: var(--button-text) }
 
-.section-nav h4 {
-  color: var(--ifm-color-primary-darkest);
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
+/* Cards */
+.content-card { background: var(--page-bg); border:1px solid var(--border-color); border-radius:12px; padding:1.75rem; box-shadow: var(--shadow); transition: transform .28s, box-shadow .28s }
+.content-card:hover { transform: translateY(-6px); box-shadow: 0 18px 50px rgba(0,0,0,0.12) }
 
-.section-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+/* Highlight */
+.highlight-box { background: linear-gradient(135deg, var(--primary-tint), color-mix(in srgb, var(--primary) 3%, transparent)); border-radius:12px; padding:1.5rem; border:1px solid var(--border-color); position:relative }
+.highlight-box h3 { color: var(--primary-dark) }
 
-.section-nav li {
-  margin: 0.5rem 0;
-}
+/* Buttons */
+.btn-primary { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--button-text); padding:.85rem 1.5rem; border-radius:8px; border:none; font-weight:600; box-shadow: 0 6px 20px rgba(0,0,0,0.08) }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 36px rgba(0,0,0,0.12) }
+.btn-secondary { background: transparent; border:2px solid var(--primary); color: var(--primary); padding:.75rem 1.25rem; border-radius:8px }
+.btn-secondary:hover { background: var(--primary); color: var(--button-text) }
 
-.section-nav a {
-  color: var(--ifm-color-primary-dark);
-  text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 0.8rem;
-  border-radius: 6px;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
+/* Table of contents */
+.table-of-contents { position:relative; padding-left:1.5rem }
+.table-of-contents::before { content:""; position:absolute; left:.5rem; top:0; bottom:0; width:2px; background: linear-gradient(to bottom, var(--primary) 0, var(--primary-light) 25%, var(--primary) 50%); background-size:2px 20px }
+.table-of-contents__link { color: var(--muted-color); padding:.45rem .6rem; border-radius:6px; display:block }
+.table-of-contents__link:hover { color: var(--primary-dark); transform: translateX(3px) }
+.table-of-contents__link--active { background: color-mix(in srgb, var(--primary) 6%, transparent); color: var(--primary); font-weight:700 }
+
+/* Markdown/content */
+.markdown { max-width:900px; margin:0 auto; padding:0 1.5rem; color: var(--text-color); line-height:1.8 }
+.markdown h1 { font-size:2.8rem; text-align:center; margin:2.5rem 0 1.25rem; color: var(--primary-dark); border-bottom:3px solid var(--primary); padding-bottom:1rem }
+.markdown h2 { font-size:2rem; color: var(--primary-dark); background: linear-gradient(90deg, color-mix(in srgb, var(--primary) 6%, transparent), transparent); padding:1rem; border-left:5px solid var(--primary); border-radius:0 10px 10px 0 }
+.markdown p { color: var(--muted-color) }
+.markdown blockquote { background: linear-gradient(135deg, var(--primary-tint), color-mix(in srgb, var(--primary) 3%, transparent)); border-left:5px solid var(--primary); padding:1.5rem; border-radius:0 8px 8px 0; color: var(--primary-dark) }
+.markdown table { width:100%; border-collapse:collapse; border-radius:8px; overflow:hidden }
+.markdown th { background: var(--primary); color: var(--button-text); padding:1rem; text-align:left }
+.markdown td { padding:1rem; border-bottom:1px solid var(--border-color) }
+.markdown code { background: color-mix(in srgb, var(--primary) 8%, transparent); padding:.2rem .4rem; border-radius:4px; color: var(--primary-dark) }
+
+/* Team */
+.team-grid { display:grid; gap:2rem; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)) }
+.team-card { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--button-text); border-radius:16px; padding:1.5rem; text-align:center; box-shadow:0 12px 40px rgba(0,0,0,0.12); transition: transform .35s }
+.team-card .avatar { border-radius:12px; width:100%; height:220px; object-fit:cover; border:4px solid rgba(255,255,255,0.12) }
+
+/* Utilities / responsive */
+@media (max-width:768px) { .hero h1 { font-size:2rem } .markdown { padding:0 1rem } .team-grid { grid-template-columns:repeat(auto-fill, minmax(220px,1fr)) } }
+
+/* Progress bar */
+.scroll-progress { position: fixed; margin-top: 60px; left:0; width:0%; height:4px; background-color: var(--progress-color); z-index:1; transition: width .1s ease-out; box-shadow: 0 2px 4px rgba(0,0,0,0.08) }
 
 .section-nav a:hover {
   background: var(--ifm-color-primary);
-  color: white;
-  transform: translateX(5px);
-}
-
-/* Card-like content sections */
-.content-card {
-  background: white;
-  border-radius: 16px;
-  padding: 2.5rem;
-  margin: 2rem 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e2e8f0;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.content-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-}
-
-/* Special highlight boxes */
-.highlight-box {
-  background: linear-gradient(135deg, rgba(38, 217, 52, 0.08) 0%, rgba(38, 217, 52, 0.03) 100%);
-  border: 2px solid var(--ifm-color-primary-light);
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.highlight-box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 6px;
-  height: 100%;
-  background: var(--ifm-color-primary);
-}
-
-.highlight-box h3 {
-  color: var(--ifm-color-primary-darkest);
-  margin-top: 0;
-}
-
-/* Button styling */
-.btn-primary {
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
-  color: white;
+  /* Element variables legend
+     Edit these element-named variables at the top :root.
+     Suggested mapping:
+       --page-bg             : page background
+       --text-color          : primary body text
+       --muted-color         : secondary / muted text
+       --border-color        : card and section borders
+       --navbar-bg           : navbar background
+       --navbar-text         : navbar text / logo text
+       --sidebar-bg          : left sidebar background
+       --primary             : primary accent (buttons, highlights)
+       --primary-dark        : accent (shadows / active states)
+       --primary-light       : light tint of accent
+       --button-text         : text color for primary buttons
+       --primary-tint        : translucent tint of accent for backgrounds
+       --heading-grad-start/--heading-grad-end : heading gradient start/end
+  */
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
@@ -204,9 +225,7 @@ body {
 }
 
 /* Working scroll progress bar */
-:root {
-  --scroll-progress: 0%;
-}
+/* scroll-progress variable is defined at the top-level :root to keep a single source of truth */
 
 /* Progress bar that updates on scroll - positioned below navbar */
 .scroll-progress {
@@ -215,18 +234,18 @@ body {
   left: 0;
   width: 0%;
   height: 4px;
-  background-color: rgb(138, 13, 160);
+  background-color: var(--progress-color);
   /* keep progress bar behind UI */
   z-index: 1;
   transition: width 0.1s ease-out;
   box-shadow: 0 2px 4px rgba(38, 217, 52, 0.3);
 }
 
-/* Professional navbar with green color scheme and increased height */
+/* Professional navbar (uses element variables) */
 .navbar {
-  background-color: var(--ifm-color-primary-darkest);
-  border-bottom: 1px solid #027A3E;
-  box-shadow: 0 2px 8px rgba(2, 158, 78, 0.3);
+  background-color: var(--navbar-bg);
+  border-bottom: 1px solid var(--primary-dark);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   min-height: 90px;
   padding: 0.5rem 0;
 }
@@ -285,21 +304,33 @@ body {
 }
 
 .navbar__logo img {
-  height: 81px !important;
-  width: 81px !important;
+  /* slightly larger in some layouts; keep consistent but override any previous !important rules */
+  height: 110px !important;
+  width: 110px !important;
   border-radius: 50% !important;
-  margin-left: 13px !important;
-  transition: all 0.3s ease !important;
+  margin-left: 12px !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: transform 0.25s ease !important;
+  margin-top: -20px;
 }
 
-.navbar__logo{
-  margin-top: -50px;
-  margin-left: 20px;
+.navbar__logo {
+  /* avoid large negative offsets so logo stays correctly aligned */
+  margin-top: 0;
+  margin-left: 0;
+  /* ensure the logo container matches the image height so the image is vertically centered */
+  display: flex;
+  align-items: center;
+  height: 84px;
 }
 .navbar__logo:hover {
-  transform: scale(1.1) !important;
-  border-color: #ffffff !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+  transform: scale(1.05) !important;
+  /* subtle shadow on hover only, no border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12) !important;
+  /* Ensure no border appears from other styles (e.g., generated build CSS) */
+  border-color: transparent !important;
+  outline: none !important;
 }
 
 .navbar__title {

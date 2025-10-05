@@ -73,7 +73,7 @@ export default {
       "title": "EPIC",
       "logo": {
         "alt": "IIT Madras iGEM Logo",
-        "src": "https://static.igem.wiki/teams/5657/navbar/logo.webp"
+        "src": "https://static.igem.wiki/teams/5657/navbar/logo3.webp"
       },
       "items": [
         {

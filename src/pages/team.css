@@ -15,7 +15,7 @@
   width: 100vw;
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #f8fff8 0%, #f0fff0 100%);
+  background: linear-gradient(135deg, var(--team-bg-start) 0%, var(--team-bg-end) 100%);
   position: relative;
   overflow-x: hidden;
 }
@@ -41,7 +41,7 @@
   font-size: 4rem;
   font-weight: 300;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #029E4E 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, var(--team-accent-1) 0%, var(--team-accent-2) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -68,7 +68,7 @@
 
 .team-card {
   /* restored original team card gradient background */
-  background: linear-gradient(135deg, #029E4E 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, var(--team-accent-1) 0%, var(--team-accent-2) 100%);
   border-radius: 14px;
   padding: 1.6rem;
   margin-bottom: 3rem;
@@ -144,7 +144,7 @@
 
 .team-card .department {
   background: rgba(255, 255, 255, 0.95);
-  color: #029E4E;
+  color: var(--team-accent-1);
   padding: 0.65rem 1.3rem;
   border-radius: 25px;
   font-size: 1rem;
@@ -167,7 +167,7 @@
   right: -36vw;
   width: 36vw;
   height: 100vh;
-  background: linear-gradient(135deg, #029E4E 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, var(--team-accent-1) 0%, var(--team-accent-2) 100%);
   transition: right 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1000;
   overflow-y: auto;
@@ -234,7 +234,7 @@
   padding: 0;
   line-height: 1.05;
   /* gradient text similar to the page H1 */
-  background: linear-gradient(135deg, #029E4E 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, var(--team-accent-1) 0%, var(--team-accent-2) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -255,7 +255,7 @@
 
 .member-sidebar .department-large {
   background: rgba(255, 255, 255, 0.95);
-  color: #029E4E;
+  color: var(--team-accent-1);
   padding: 0.35rem 0.9rem;
   border-radius: 12px;
   font-size: 0.92rem;
@@ -330,7 +330,7 @@
   top: 2rem;
   left: 2rem;
   background: rgba(255, 255, 255, 0.95);
-  color: #029E4E;
+  color: var(--team-accent-1);
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
   text-decoration: none;
@@ -345,7 +345,7 @@
   background: white;
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  color: #029E4E;
+  color: var(--team-accent-1);
   text-decoration: none;
 }
 
