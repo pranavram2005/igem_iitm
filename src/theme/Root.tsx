@@ -13,7 +13,8 @@ export default function RootWrapper(props) {
     progressBar.style.marginTop = '90px';
     progressBar.style.height = '4px';
     progressBar.style.background = '#D926CB';
-    progressBar.style.zIndex = '10000';
+  // keep progress bar z-index low so it doesn't overlay other UI
+  progressBar.style.zIndex = '1';
     progressBar.style.transition = 'width 0.1s ease-out';
     progressBar.style.boxShadow = '0 2px 4px rgba(38, 217, 52, 0.3)';
     

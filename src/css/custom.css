@@ -216,7 +216,8 @@ body {
   width: 0%;
   height: 4px;
   background-color: rgb(138, 13, 160);
-  z-index: 9999;
+  /* keep progress bar behind UI */
+  z-index: 1;
   transition: width 0.1s ease-out;
   box-shadow: 0 2px 4px rgba(38, 217, 52, 0.3);
 }

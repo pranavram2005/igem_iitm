@@ -11,8 +11,8 @@ const Team = () => {
 
   // Organize team members into sections
   const advisors = [
-    { name: "Meiyapan Laksh", img: "", position: "Faculty Advisor and Primary Investigator", vertical: "Advisor" },
-    { name: "Arumugam Rajavelu", img: "", position: "Guide", vertical: "Advisor" }
+    { name: "Meiyapan", img: "", position: "Faculty Advisor and Primary Investigator", vertical: "Advisor" },
+    { name: "Arumugam", img: "", position: "Guide", vertical: "Advisor" }
   ];
 
   const cores = [

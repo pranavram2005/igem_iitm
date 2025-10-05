@@ -229,8 +229,8 @@ export default {
           "title": "TEAM & PRACTICES",
           "items": [
             {
-              "label": "MEMBERS",
-              "to": "/members"
+              "label": "TEAM",
+              "to": "/team"
             },
             {
               "label": "ATTRIBUTIONS",
