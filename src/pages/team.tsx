@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Layout from '@theme/Layout';
@@ -7,8 +7,7 @@ import './team.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const TeamPage = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [selectedMember, setSelectedMember] = useState(null);
+  // Sidebar removed - cards are static
 
   const teamMembers = [
     { name: "Meiyapan Laksh", img: "https://static.igem.wiki/teams/5657/team/adv1.webp", position: "Faculty Advisor and Primary Investigator", vertical: "Faculty", bio: "Prof. Meiyappan Lakshmanan guided the team in defining the project’s focus on CHO cells and biomanufacturing, providing continuous mentorship and technical feedback. He offered lab space, facilitated cell culture training, and provided technical guidance on integrating gene expression data into the metabolic model using algorithms like GIMME and iMAT for context-specific model refinement." },
@@ -56,28 +55,7 @@ const TeamPage = () => {
     return name.split(' ').map(n => n[0]).join('');
   };
 
-  const openSidebar = (index) => {
-    setSelectedMember(teamMembers[index]);
-    setSidebarOpen(true);
-    document.body.style.overflow = 'hidden';
-  };
-
-  const closeSidebar = () => {
-    setSidebarOpen(false);
-    setSelectedMember(null);
-    document.body.style.overflow = 'auto';
-  };
-
-  useEffect(() => {
-    const handleEscape = (e) => {
-      if (e.key === 'Escape') {
-        closeSidebar();
-      }
-    };
-
-    document.addEventListener('keydown', handleEscape);
-    return () => document.removeEventListener('keydown', handleEscape);
-  }, []);
+  // sidebar removed; no keyboard handlers required
 
   useEffect(() => {
     gsap.utils.toArray('.team-card').forEach((card) => {
@@ -102,12 +80,10 @@ const TeamPage = () => {
       description="Meet the talented individuals behind IIT Madras iGEM 2025"
       wrapperClassName="team-layout"
     >
-      <div className="team-page-container">
-        <a href="/" className="back-to-site">← Back to Main Site</a>
+    <div className="team-page-container">
+      <a href="/" className="back-to-site">← Back to Main Site</a>
         
-        <div className={`overlay ${sidebarOpen ? 'active' : ''}`} onClick={closeSidebar}></div>
-        
-        <div className={`team-container ${sidebarOpen ? 'sidebar-open' : ''}`}>
+      <div className={`team-container`}>
           <div className="team-header">
             <h1>IIT Madras iGEM 2025</h1>
             <p>Meet the talented individuals who make our synthetic biology project extraordinary. Each member brings unique skills and passion to create innovative solutions for real-world challenges.</p>
@@ -124,8 +100,7 @@ const TeamPage = () => {
                 return (
                   <div 
                     key={member.idx} 
-                    className="team-card" 
-                    onClick={() => openSidebar(member.idx)}
+                    className="team-card"
                   >
                     <img src={imgSrc} alt={member.name} className="avatar" />
                     <h3>{member.name}</h3>
@@ -148,8 +123,7 @@ const TeamPage = () => {
                 return (
                   <div 
                     key={member.idx} 
-                    className="team-card" 
-                    onClick={() => openSidebar(member.idx)}
+                    className="team-card"
                   >
                     <img src={imgSrc} alt={member.name} className="avatar" />
                     <h3>{member.name}</h3>
@@ -172,8 +146,7 @@ const TeamPage = () => {
                 return (
                   <div 
                     key={member.idx} 
-                    className="team-card" 
-                    onClick={() => openSidebar(member.idx)}
+                    className="team-card"
                   >
                     <img src={imgSrc} alt={member.name} className="avatar" />
                     <h3>{member.name}</h3>
@@ -196,8 +169,7 @@ const TeamPage = () => {
                 return (
                   <div 
                     key={member.idx} 
-                    className="team-card" 
-                    onClick={() => openSidebar(member.idx)}
+                    className="team-card"
                   >
                     <img src={imgSrc} alt={member.name} className="avatar" />
                     <h3>{member.name}</h3>
@@ -210,7 +182,7 @@ const TeamPage = () => {
           </div>
         </div>
 
-        <div className={`member-sidebar ${sidebarOpen ? 'open' : ''}`}>
+        {/* <div className={`member-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <button className="close-btn" onClick={closeSidebar}>&times;</button>
           {selectedMember && (
             <div className="sidebar-content">
@@ -230,7 +202,7 @@ const TeamPage = () => {
               </div>
             </div>
           )}
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
