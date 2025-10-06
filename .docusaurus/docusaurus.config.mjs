@@ -410,6 +410,13 @@ export default {
         }
       ]
     },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
+    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -422,14 +429,7 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    }
+    "metadata": []
   },
   "baseUrlIssueBanner": true,
   "future": {
